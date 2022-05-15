@@ -1,0 +1,41 @@
+h1{
+    position: absolute;
+    margin-left: 50%;
+}
+
+div.parentContainer{
+    justify-content: center;
+    display: inline-flex;
+    gap: 15px;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+}
+
+div.animeSeriessHolder{
+    display:inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+hx{
+    font-size: 30px;
+}
+
+li{
+    font-size: 25px;
+}
+
+a{
+    font-size: 20px;
+}
+
+a:hover{
+    color: crimson;
+}
+
+div.returnal{
+    position:absolute;
+    top: 35%;
+    left: 50%;
+}

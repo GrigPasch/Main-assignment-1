@@ -1,0 +1,33 @@
+h1{
+    position: absolute;
+    margin-left: 50%;
+}
+
+div.parentContainer{
+    justify-content: center;
+    display: inline-flex;
+    gap: 15px;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+}
+
+div.linksHolder1{
+    display:inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.linksHolder2{
+    display:inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a{
+    font-size: 20px;
+}
+
+a:hover{
+    color: crimson;
+}
