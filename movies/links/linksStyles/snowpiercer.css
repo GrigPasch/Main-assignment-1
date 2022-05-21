@@ -1,0 +1,34 @@
+.imageHolder {
+    width: 1750px;
+    height:333px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+    background: url("./images/snowpiercer.png");
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 0px 50px 70px rgba(0,0,0,0.3), 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.imageHolder::before {
+    content:"";
+    width:inherit;
+    height: 42%;
+    position: absolute;
+    bottom: -42%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5),white);
+    z-index: 1;
+}
+
+.imageHolder::after {
+    content:"";
+    background-image: inherit;
+    width:inherit;
+    height:40%;
+    position: absolute;
+    bottom:-41%;
+    transform: scaleY(-1);
+    background-position: bottom;
+    background-size: cover;
+    opacity: 0.7;
+}
